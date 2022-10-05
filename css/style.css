@@ -1,0 +1,82 @@
+/* Genral styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e5e5e5;
+}
+
+ul {
+  list-style: none;
+}
+
+.hero-social ul {
+  gap: 19px;
+  padding: 0;
+}
+
+.my-nav {
+  padding: 25px 155px;
+}
+
+.navbar-collapse {
+  flex-grow: initial;
+}
+
+.navbar-nav {
+  gap: 32px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+}
+
+.nav-link {
+  color: #344563;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/* Main styles */
+
+.my-main-container {
+  min-height: 100vh;
+  background: #fff url("../assets/Header\ bg@2x.png");
+  background-size: 90%;
+  background-position: 50%, 0;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 100px;
+}
+
+.hero-container-content,
+.hero-social {
+  width: 920px;
+}
+
+.hero-container-content p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #344563;
+}
+
+.hero-container-content a {
+  color: #7f8cff;
+}
+@media screen and (max-width: 1000px) {
+  .my-nav {
+    padding: 0;
+  }
+
+  .my-nav-container {
+    margin: 0;
+  }
+}
